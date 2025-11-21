@@ -2,11 +2,11 @@ import { clsx, type ClassValue } from "clsx"
 import { twMerge } from "tailwind-merge"
 
 export const METADATA = {
-  name: "Base Mini App Demo",
-  description: "A demo mini app for testing capabilities on Base using MiniKit",
-  bannerImageUrl: 'https://i.imgur.com/2bsV8mV.png',
-  iconImageUrl: 'https://i.imgur.com/brcnijg.png',
-  homeUrl: process.env.NEXT_PUBLIC_URL ?? "https://fulldemo-minikit.vercel.app",
+  name: "Meme Coin Madness",
+  description: "Fast-paced meme coin tapper on Base. Smash coins, dodge rugs, build combos, and chase new high scores.",
+  bannerImageUrl: 'https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/banner.png',
+  iconImageUrl: 'https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/icon.png',
+  homeUrl: process.env.NEXT_PUBLIC_URL ?? "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app",
   splashBackgroundColor: "#FFFFFF"
 }
 

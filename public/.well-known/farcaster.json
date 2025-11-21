@@ -2,26 +2,26 @@
   "frame": {
     "version": "vNext",
     "name": "Meme Coin Madness",
-    "iconUrl": "https://meme-coin-madness-miniapp.vercel.app/icon.png",
-    "homeUrl": "https://meme-coin-madness-miniapp.vercel.app",
-    "imageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png",
+    "iconUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/icon.png",
+    "homeUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app",
+    "imageUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/banner.png",
     "splashBackgroundColor": "#ffffff",
     "ogTitle": "Meme Coin Madness on Base",
     "ogDescription": "Fast-paced meme coin tapper on Base. Smash coins, dodge rugs, build combos, and chase new high scores.",
-    "ogImageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png"
+    "ogImageUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/banner.png"
   },
   "miniapp": {
     "name": "Meme Coin Madness",
     "shortName": "MemeCoinMadness",
     "description": "Fast-paced meme coin tapper on Base. Smash coins, dodge rugs, build combos, and chase new high scores.",
-    "iconUrl": "https://meme-coin-madness-miniapp.vercel.app/icon.png",
-    "imageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png",
-    "homeUrl": "https://meme-coin-madness-miniapp.vercel.app",
+    "iconUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/icon.png",
+    "imageUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app/banner.png",
+    "homeUrl": "https://meme-coin-madness-miniapp-jocw-nkbmidm36.vercel.app",
     "tags": ["base", "game", "miniapp", "meme"]
-  {
+  },
   "accountAssociation": {
     "header": "eyJmaWQiOjgwNzIwMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDgwYjQ2RWRGOURlQzY1RjM2RDdFOGNGN2E5NTY1ZENDMDhBM2RBOUUifQ",
-    "payload": "eyJkb21haW4iOiJtZW1lLWNvaW4tbWFkbmVzcy1taW5pYXBwLnZlcmNlbC5hcHAifQ",
-    "signature": "0WCdEyiZvGeoneeI86M3+RxdgSQPnXrRJUWkYFDMVxVTuKlN8vx+j9Gg1rxYsgv5wtYZJYaXdrM0Jh6/t9pcJBs="
+    "payload": "eyJkb21haW4iOiJtZW1lLWNvaW4tbWFkbmVzcy1taW5pYXBwLWpvY3cta2JtaWRtMzYudmVyY2VsLmFwcCJ9",
+    "signature": "MHhiNjA4ZTU3MzdkYTQxNzQ2OGZiNzY4ZmY0ZmE1ZDc4YjJiMTFmYzJhNGM4YzYzZmU3ZmQ3YTQyNGM5MzQyZjc4Mzc3YzFjNGQxNzg4NjZhMjJlY2I2MjU1YTlkNGI1NjY5ODk0YzRhYzYwMWRjNzUzYmYwMmRjNmM4ZTM4MjA4MWM="
   }
 }

@@ -1,0 +1,27 @@
+{
+  "frame": {
+    "version": "vNext",
+    "name": "Meme Coin Madness",
+    "iconUrl": "https://meme-coin-madness-miniapp.vercel.app/icon.png",
+    "homeUrl": "https://meme-coin-madness-miniapp.vercel.app",
+    "imageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png",
+    "splashBackgroundColor": "#ffffff",
+    "ogTitle": "Meme Coin Madness on Base",
+    "ogDescription": "Fast-paced meme coin tapper on Base. Smash coins, dodge rugs, build combos, and chase new high scores.",
+    "ogImageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png"
+  },
+  "miniapp": {
+    "name": "Meme Coin Madness",
+    "shortName": "MemeCoinMadness",
+    "description": "Fast-paced meme coin tapper on Base. Smash coins, dodge rugs, build combos, and chase new high scores.",
+    "iconUrl": "https://meme-coin-madness-miniapp.vercel.app/icon.png",
+    "imageUrl": "https://meme-coin-madness-miniapp.vercel.app/banner.png",
+    "homeUrl": "https://meme-coin-madness-miniapp.vercel.app",
+    "tags": ["base", "game", "miniapp", "meme"]
+  {
+  "accountAssociation": {
+    "header": "eyJmaWQiOjgwNzIwMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweDgwYjQ2RWRGOURlQzY1RjM2RDdFOGNGN2E5NTY1ZENDMDhBM2RBOUUifQ",
+    "payload": "eyJkb21haW4iOiJtZW1lLWNvaW4tbWFkbmVzcy1taW5pYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "0WCdEyiZvGeoneeI86M3+RxdgSQPnXrRJUWkYFDMVxVTuKlN8vx+j9Gg1rxYsgv5wtYZJYaXdrM0Jh6/t9pcJBs="
+  }
+}

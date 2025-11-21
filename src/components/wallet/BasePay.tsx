@@ -1,3 +1,15 @@
+/**
+ * BasePay Component
+ *
+ * Demonstrates Base Pay integration for one-tap USDC payments on Base.
+ *
+ * Documentation:
+ * - Base Pay: https://docs.base.org/base-pay
+ * - Base Account: https://docs.base.org/base-account
+ * - USDC on Base: https://docs.base.org/tokens/usdc
+ * - UI Components: https://docs.base.org/base-account/ui-components
+ */
+
 "use client";
 
 import { useState } from "react";
@@ -78,6 +90,8 @@ function PaymentStatusCard({
   };
 
   const config = getStatusConfig(paymentState.status);
+  // BaseScan is Base's block explorer - view transactions at https://basescan.org
+  // Documentation: https://docs.base.org/tools/block-explorers
   const baseScanUrl = 'https://basescan.org/tx/';
 
   return (
@@ -147,14 +161,39 @@ function PaymentStatusCard({
   );
 }
 
+/**
+ * BasePay Component
+ *
+ * Provides a complete payment interface using Base Pay.
+ * Handles USDC payments on the Base network with real-time status tracking.
+ *
+ * Features:
+ * - One-tap USDC payments
+ * - Real-time transaction status
+ * - BaseScan integration for transaction viewing
+ * - Visual payment state feedback
+ *
+ * Learn more: https://docs.base.org/base-pay
+ */
 export function BasePay() {
   const [isProcessing, setIsProcessing] = useState(false);
   const [paymentState, setPaymentState] = useState<PaymentState>({ status: 'idle', message: '' });
   const [amount, setAmount] = useState("5.00");
-  
+
   // dylsteck.base.eth
   const recipient = "0x8342A48694A74044116F330db5050a267b28dD85";
 
+  /**
+   * Initiates a USDC payment on Base using Base Pay.
+   *
+   * Payment flow:
+   * 1. Initiates payment with Base Account
+   * 2. Submits transaction to Base network
+   * 3. Polls for transaction status
+   * 4. Updates UI with payment result
+   *
+   * Documentation: https://docs.base.org/base-pay/payment-flows
+   */
   const handlePay = async () => {
     try {
       setIsProcessing(true);
@@ -164,6 +203,8 @@ export function BasePay() {
         timestamp: new Date()
       });
 
+      // Base Pay API - initiates USDC payment on Base mainnet
+      // API Reference: https://docs.base.org/base-account/api-reference
       const result = await pay({
         amount: amount,
         to: recipient,
